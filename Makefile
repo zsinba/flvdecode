@@ -1,5 +1,4 @@
 all:
-    gcc -O3 -Wall -g flvdecode.c -o flvdecode
-
+	gcc -O3 -Wall -g flvdecode.c -o flvdecode
 clean:
-    rm -rf flvdecode
+	rm -rf flvdecode

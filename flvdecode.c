@@ -33,7 +33,7 @@
 int script_type_parse(unsigned char *data);
 
 union av_intfloat64 {
-    uint64_t i;
+    u_int64_t i;
     double f;
 };
 
@@ -99,7 +99,7 @@ typedef struct script_object_name script_object_t;
 /**
  * Reinterpret a 64-bit integer as a double.
  */
-static double int2double(uint64_t i)
+static double int2double(u_int64_t i)
 {
     union av_intfloat64 v;
     v.i = i;
